@@ -9,6 +9,6 @@ public class Videogame
     [DataType(DataType.Date)]
     public DateTime ReleaseDate { get; set; }
     public string? Genre { get; set; }
-    public string? Rating { get; set; }
+    public int Rating { get; set; }
     public string? Platform { get; set; }
 }
